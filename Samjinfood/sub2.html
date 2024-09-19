@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>삼진어묵 공식쇼핑몰-이벤트혜택</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.bundle.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header id="header">
+    <div class="header_top">
+        <div class="container header_wrap">
+            <ul class="top_menu">
+                <li><a href="https://samjinfood.com/member/login.php"><span>로그인</span></a></li>
+                <li><a href="https://samjinfood.com/member/join_method.php"><span>회원가입</span></a></li>
+                <li><a href="https://samjinfood.com/order/cart.php"><span>장바구니 (<span class="cart-num">0</span>)</span></a></li>
+                <li>
+                    <a href="#"><span>마이페이지</span></a>
+                </li>
+                <li><a href="https://samjinfood.com/board/list.php?bdId=notice"><span>고객센터</span></a></li>
+                <li>
+                  <a class="top_intro_ko" href="https://samjinfood.com/service/company.php">
+                    <b>회사소개</b>
+                    <span class="top_intro_lang">KOR</span>
+                  </a>
+                </li>
+                <li>
+                  <a class="top_intro_lang" href="http://samjinamook.com/en/index.php" title="새창열림" target="_blank" rel="noopener noreferrer">ENG</a>
+                </li>
+            </ul><!-- .top_menu -->
+        </div><!-- .header_wrap -->
+    </div><!-- .header_top -->
+    
+    <div class="header_middle">
+      <div class="container header_wrap text-center ">
+        <a href="index.html" class="navbar-brand">
+          <img src="images/logo.svg" alt="삼진어묵 SINCE 1953 LOGO">
+        </a>
+          <ul class="header_middle_link">
+              <li class="btn_bakery"><a href="https://samjinfood.com/service/bakery.php"><span>삼진베이커리</span></a></li>
+              <li class="btn_business"><a href="https://www.samjinbiz.com/main/index.php" title="새창열림" target="_blank" rel="noopener noreferrer"><span>사업자 전용</span></a></li>
+          </ul><!-- .header_middle_link -->
+        </div><!-- .header_wrap -->
+    </div><!-- .header_middle -->
+    
+    <div class="header_bottom">
+        <div class="container header_wrap">
+            <div class="menu_container">
+                <nav class="menu_wrap">
+                    <ul id="menu">
+                        <li>
+                            <a href="https://samjinfood.com/goods/goods_list.php?cateCd=002011">
+                                <span>선물하기</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://samjinfood.com/goods/best.php">
+                                <span>베스트상품</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="sub1.html">
+                                <span>신상품</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://samjinfood.com/goods/special.php">
+                                <span>기획전</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="sub2.html">
+                                <span>이벤트/혜택</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://samjinfood.com/goods/goods_list.php?cateCd=002012">
+                                <span>대량주문</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav><!-- .menu_wrap -->
+    
+               <div class="gnb_all full_menu_wrap">
+                   <a href="#;" id="full_menu_controller" class="btn_all_menu_open">
+                  <div class="full_menu_controller_icon">
+                    <span class="full_menu_controller_line full_menu_controller_line_01"
+                      style="transform: translate3d(0px, 0px, 0px);"></span>
+                    <span class="full_menu_controller_line full_menu_controller_line_02" style="visibility: inherit; opacity: 1;"></span>
+                    <span class="full_menu_controller_line full_menu_controller_line_03"
+                      style="transform: translate3d(0px, 0px, 0px);"></span>
+                  </div>
+                  <span>전체 카테고리</span>
+                  </a>
+               </div> 
+            
+            <div class="search_wrap">
+              <form name="frmSearchTop" id="frmSearchTop" action="../goods/goods_search.php" method="get" novalidate="novalidate">
+                <fieldset>
+                  <legend>검색폼</legend>
+                      <input type="text" id="search_form" name="keyword" class="search_input" title="검색어를 입력해주세요."
+                        placeholder="검색어를 입력해주세요." autocomplete="off" >
+                      <img src="images/ico_search.png" class="search_icon">
+                </fieldset>
+              </form>
+          </div><!-- .search_wrap -->
+        </div><!-- .menu_container -->
+        </div><!-- .header_wrap -->
+    </div><!-- .header_bottom -->
+  </header>
+
+  <main>
+    <div class="container py-5 my-5">
+      <h1><img src="images/event_icon.png" alt="이벤트아이콘">이벤트/혜택</h1>
+      <ul class="d-flex justify-content-end">
+				<li><a href="#" class="pe-2 border-end text-secondary">전체보기</a></li>
+        <li><a href="#" class="px-2 border-end point-text">진행중</a></li>
+        <li><a href="#" class="px-2 border-end text-secondary">종료됨</a></li>
+        <li><a href="#" class="ps-2 text-secondary">당첨자발표</a></li>
+			</ul>
+      <div class="border-dark border-bottom border-2 mt-3 mb-4"></div>
+
+      <div class="row mb-5">
+        <div class="col-6">
+          <img src="images/event_banner01.jpg" alt="5천원 페이백 이벤트" class="w-100">
+          <div class="event_banner_list">
+            <p class="event_type ing">진행중</p>
+            <strong class="fs-5">5월 가정의달 선물하기 페이백 이벤트</strong>
+            <p class="text-small pt-2"><strong class="text-secondary">2024.05.02 00:00 - 2024.05.31 23:59</strong></p>
+          </div>
+        </div>
+        <div class="col-6">
+          <img src="images/event_banner02.jpg" alt="크로켓 100원 이벤트" class="w-100">
+          <div class="event_banner_list">
+            <p class="event_type ing">진행중</p>
+            <strong class="fs-5">어플 다운로드 크로켓 100원 이벤트</strong>
+            <p class="text-small pt-2"><strong class="text-secondary">2024.04.12 00:00 - 2024.06.30 23:59</strong></p>
+          </div>
+        </div>
+      </div> <!--row1-->
+      <div class="row mb-5">
+        <div class="col-6">
+          <img src="images/event_banner03.jpg" alt="삼진어묵 앱출시" class="w-100">
+          <div class="event_banner_list">
+            <p class="event_type ing">진행중</p>
+            <strong class="fs-5">삼진어묵 모바일 어플 출시</strong>
+            <p class="text-small pt-2"><strong class="text-secondary">2023.11.01 00:00 - 2024.12.31 23:59</strong></p>
+          </div>
+        </div>
+      </div> <!--row2-->
+      <hr>
+      <div class="mx-auto text-center mt-5">
+        <span class="point-text">1</span>
+        <!-- <ul class="pagination">
+          <li class="page-item"><a href="#" class="page-link">prev</a></li>
+          <li class="page-item"><a href="#" class="page-link">1</a></li>
+          <li class="page-item"><a href="#" class="page-link">2</a></li>
+          <li class="page-item"><a href="#" class="page-link">3</a></li>
+          <li class="page-item"><a href="#" class="page-link">4</a></li>
+          <li class="page-item"><a href="#" class="page-link">5</a></li>
+          <li class="page-item"><a href="#" class="page-link">next </a></li>
+      </ul> -->
+      </div>
+
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-top border-top">
+      <div class="container">
+        <div class="row my-5">
+            <div class="col border-end pe-4">
+                <h3>고객센터</h3>
+                <div class="d-flex">
+                  <div class="w-50">
+                      <p><a href="tel:051-412-5468" class="point-text fs-3">051-412-5468</a></p>
+                      <p><span>문자상담</span> <u class="point-text">1644-1953</u></p>
+                      <p>09:00 ~ 18:00 평일 운영</p>
+                      <p class="border-top text-small pt-3"><strong>KCP구매안전(에스크로) 서비스</strong></p>
+                      <u class="text-small">서비스 가입사실 확인 ></u>
+                  </div>
+                   <div class="w-50 ms-4">
+                      <a class="border border-dark p-2 mb-2 d-block rounded-2" href="../service/qa.php"><span>1:1 문의하기 ></span></a>
+                      <a class="border border-dark p-2 mb-2 d-block rounded-2" href="../service/faq.php"><span>FAQ 바로가기 ></span></a>
+                      <a class="border border-dark p-2 d-block rounded-2" href="http://pf.kakao.com/_xchxmExd/chat"><span>카카오톡 1:1 상담 ></span></a>
+                  </div>
+                </div>
+             </div> <!-- 고객센터 end-->
+
+            <div class="col border-end px-4">
+                <h3>입금계좌</h3>
+                <div class="position-relative">
+                    <p>무통장입금시 확인해주세요.</p>
+                    <p class="point-text fs-3 mb-0">322-910082-65305</p>
+                    <p class="pb-2">하나은행 예금주 : 삼진식품㈜</p>
+                    <a class="border border-dark py-2 px-3 rounded-2" href="#"><span>입금자 확인하기 > </span></a>
+      
+                    <div class="footer_bank_symbol">
+                        <img src="images/global_info_ssl_logo_2x.png" alt="SSL 로고">
+                        <img src="images/global_info_kcp_logo_2x.png" alt="KCP 로고">
+                    </div>
+                </div>
+            </div> <!-- 입금계좌 end-->
+
+            <div class="col">
+              <div class="footer_info_notice ps-2">
+                <div class="footer_info_notice_header">
+                    <h3>공지사항</h3>
+                    <a class="footer_notice_more" href="#">더보기</a>
+                </div><!-- .footer_info_notice_header -->
+
+                <ul class="board_latest_list">
+                  <li class="border-bottom">
+                      <a href="#" class="d-flex justify-content-between py-2">
+                        <sapn class="board_latest_date">[부처님 오신날 배송공지]</sapn>
+                        <span class="board_latest_date">2024.05.08</span>
+                      </a>
+                  </li>
+                  <li class="border-bottom">
+                    <a href="#" class="d-flex justify-content-between py-2">
+                      <sapn class="board_latest_date">[어린이날 배송안내]</sapn>
+                      <time class="board_latest_date" datetime="2024.04.26">2024.04.26</time>
+                    </a>
+                  </li>
+                  <li class="border-bottom">
+                    <a href="#" class="d-flex justify-content-between py-2">
+                      <sapn class="board_latest_date"> [국회의원 선거일 배송공지]</sapn>
+                      <time class="board_latest_date" datetime="2024.04.03">2024.04.03</time>
+                    </a>
+                  </li>
+                  <li class="border-bottom">
+                    <a href="#" class="d-flex justify-content-between py-2">
+                      <sapn class="board_latest_date">[카카오톡 1:1 상담톡 오픈]</sapn>
+                      <time class="board_latest_date" datetime="2024.04.01">2024.04.01</time>
+                    </a>
+                  </li>
+                </ul>
+            </div>
+            </div>
+        </div>
+      </div>
+    </div> <!-- footer-top end-->
+
+    <div class="footer-bottom">
+      <div class="container">
+          <nav class="footer_menu_wrap">
+              <ul class="footer_menu">
+                  <li><a href="#">회사소개</a></li>
+                  <li><a href="#">체험·역사관</a></li>
+                  <li><a href="#">삼진어묵당</a></li>
+                  <li><a href="#">매장찾기</a></li>
+                  <li><a href="#">고객센터</a></li>
+                  <li class="private"><a href="#">개인정보처리방침</a></li>
+                  <li><a href="#">이용약관</a></li>
+                  <li><a href="#">이메일 무단수집 거부</a></li>
+              </ul><!-- .footer_menu -->
+          </nav><!-- .footer_menu_wrap -->
+          <div class="row">
+            <div class="col">
+              <div class="footer_data">
+                  <p>
+                      <span>상호명 : 삼진식품(주)</span>
+                      <span>대표 : 박용준</span>
+                      <span>부산광역시 영도구  태종로99번길 36 </span>
+                  </p>
+                  <p>
+                      <span>전화번호 : <a href="tel:051-412-5468">051-412-5468</a></span>
+                      <span>팩스번호 : 051-980-5468</span>
+                      <span>문자상담 : 1644-1953</span>
+                      <span>메일 : <a href="mailto:samjinorder@daum.net">samjinorder@daum.net</a></span>
+                  </p>
+                  <p>
+                      <span>사업자등록번호 : 360-86-00207</span>
+                      <span>통신판매업신고번호 : 제2016-부산영도-00107호</span>
+                      <span>개인정보관리책임자 : 최문수</span>
+                  </p>
+              </div><!-- .footer_data -->
+            </div>
+          <div class="col-2 mt-5 pt-3"><img src="images/footer_logo.png" alt="삼진어묵 SINCE 1953 footer_logo" class="w-100"></div>
+          </div>
+          <hr class="text-white py-2">
+          <p class="text-secondary text-small">Copyright © samjinfood.com All right reserved.</p>
+      </div><!-- container end-->
+    </div><!-- footer-bottom end-->
+  </footer> 
+  <div class="kakao">
+    <a href="http://pf.kakao.com/_xchxmExd/chat" title="새창열림" target="_blank" rel="noopener noreferrer"></a>
+  </div>
+</body>
+</html>
