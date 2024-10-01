@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* 기본 폰트 설정 */
+@font-face {
+    font-family: 'NotoSans-L';
+    src: url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NotoSans-R';
+    src: url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NotoSans-B';
+    src: url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+/* 포인트 폰트 01 */
+@font-face {
+    font-family: 'MaruBuri-R';
+    src: url('./assets/font/MaruBuri-Regular.ttf') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MaruBuri-B';
+    src: url('./assets/font/MaruBuri-Bold.ttf') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* 포인트 폰트 02 */
+@font-face {
+    font-family: "Montserrat", sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@layer base {
+    body {
+        @apply font-primary;
+    }
+}
+
+
